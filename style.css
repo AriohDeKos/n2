@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0; 
+    font-size: 18px;
+    z-index: 1000;
+}
+.box {
+    clear: both;
+    display: table;
+    margin: auto;
+}
+.menu {
+    line-height: 3;
+    float: left; 
+    background-color: #000000;
+ }
+.menu ol{
+    width: 100%;
+    float: left;
+    margin: auto;
+    }
+.menu li{
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color:  #ABB0B7;
+    padding: 20px 40px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown  button {
+    background: none;
+    color: #ABB0B7;
+    font-size: 18px;
+    z-index: 1000;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black !important;
+  }
+  
+  .dropdown-content a img {
+    margin-right: 8px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+#catalog{
+    clear: both;
+    display: table;
+    width: 100%;
+    /* padding: 10px; */
+    background: #151515;
+}
+.conteiner{
+    float: left;
+}
+.menu2 {
+    /* line-height: 2; */
+    float: left; 
+}
+.conteiner a {
+    float: left;
+    text-decoration: none;
+    color: #777;
+    padding:  12px;
+}
+.conteiner img {
+    float: left;
+}
+.conteiner ol{
+    float: left;
+}
+.conteiner ol li {
+    float: left;
+    /* padding: 20px 40px; */
+line-height: 3;
+}
+.conteiner .logo{
+    padding-top: 10px;
+    float: left;
+    padding-right: 100px;
+}
+.conteiner .list {
+    float: left;
+}
+.conteiner a:hover{color: #844cd4;;}
+/* .list span {padding-right: 10px;} */
+.list .number-me {float: left;}
+.list .search {float: left;}
+.list .cart1 {float: left;}
+.list .cart1 .material-symbols-outlined {position: relative;}
+.list .cart1 .material-symbols-outlined::after {
+    content: '';
+    background: #844cd4;;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+}
+#conteiner2 {
+    display: table;
+    clear: both;
+    margin: auto;
+    padding-top: 200px;
+}
+#conteiner2 .bx-wrapper {
+    border: none;
+    box-shadow: 0 0 10px #ccc;
+    width: 100%;
+}
+.slider {
+    float: left ;
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
