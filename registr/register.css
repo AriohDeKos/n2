@@ -1,0 +1,49 @@
+#registr {
+    display: table;
+    clear: both;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;}
+.data h1{
+    text-align: center;
+    color: red;}
+.data {padding: 5px 10px;float: left;margin: auto;}
+.data input {padding: 5px;}
+.email{padding: 5px 10px;margin: auto;}
+.email input {width: 97%;padding: 5px;}
+.password {padding: 0 10px;margin: auto;}
+.password input {padding: 5px;width: 97%;}
+.info{
+    display: table;
+    clear: both;
+    width: 100%;}
+.gender{
+    width:100%;
+    float: left; 
+    padding: 10px 5px;}
+.birthday {padding: 5px 10px 0 10px;}
+.birthday p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(173, 173, 173);}
+.gender label {padding-right: 20px;padding-top: 10px}
+.button {
+    display: table;
+    clear: both;
+    margin: auto;
+}
+.button button {
+    padding: 5px 50px;
+    background-color: rgb(0, 189, 0);
+    border: 3px outset whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+}
+.button button a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
