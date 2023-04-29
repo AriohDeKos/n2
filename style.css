@@ -220,7 +220,8 @@ margin: auto;
    margin: auto;
 }
 .text {float: left; width: 100%;}
-.text a{float: left;
+.text a{
+    float: left;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -228,6 +229,8 @@ margin: auto;
     color: #844CD4;
     width: 50%;
     text-decoration: none;
+    padding-left: 10%;
+    margin: auto;
 }
 .text a:hover{color: #23a1d1;}
 
@@ -235,7 +238,8 @@ margin: auto;
     clear: both;
     display: table;
     padding-top: 20px;
-    /* margin: auto; */
+    margin: auto;
+    width: 80%;
 }
 /* .product1{ */
    /* display: table;
@@ -250,8 +254,9 @@ margin: auto;
 } */
 /* .product1 hr {width: 70%;margin: auto; background-color: rgba(160, 160, 160, 0.13);} */
 .dop-product{
-    /* width: 30%; */
-    /* display: table; */
+    clear: both;
+    display: table;
+    margin: auto;
 }
 .row .foto{
     display: table;
@@ -261,9 +266,9 @@ margin: auto;
     border-bottom: 1px solid gray;
     position: center center;
 }
-.product1 .top_sticer {
+.top_sticer {
     position: absolute;
-    top:5px; left: 10px; right: auto;
+    top:5px; left: 10px; 
     background-color:#c55959;
     padding: 0 10px;
     color: #fff;
@@ -301,11 +306,15 @@ margin: auto;
    clear: both;
     margin: auto;
     /* text-align: center; */
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 .caption .title-price {
     min-height: 35px;
-    float: left;
+    /* float: left; */
+    display: table;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .caption a {
     float: left;
@@ -319,12 +328,13 @@ margin: auto;
     text-decoration: none;
 }
 .new-price {
-    width: 100%; 
-    float: left;
+    width: 90%;
+    margin: auto; 
+  display: table;
     color: #ABB0B7!important;
     font-size: 18px;
     font-weight: bold;
-padding-top: 10px;}
+    padding-top: 10px;}
 
 .new-price span.usd {
     float: left;
@@ -345,12 +355,13 @@ padding-top: 10px;}
     color: #FFFFFF; 
 }
 .old-price {
-    width: 100%; 
-    float: left;
+    width: 90%; 
+    display: table;
+    margin: auto;
     color: #d2d3d4!important;
     font-size: 18px;
     font-weight: bold;
-padding-top: 10px;
+    padding-top: 10px;
 /* position: relative; */
 }
 
@@ -408,7 +419,7 @@ padding-top: 10px;
      clear: both; */
      float: left;
      padding: 0 10px;
-     /* width: 15%; */
+     width: 20%;
      position: relative;
      background-color: #1D1D1D;
      border: 1px solid rgba(0, 0, 0, 0.35);
@@ -416,38 +427,38 @@ padding-top: 10px;
      margin-right: 20px;
     }
 .product2{
-   /* display: table;
-    clear: both; */
-    float: left;
-    padding: 0 10px;
-    /* width: 15%; */
-    position: relative;
-    background-color: #1D1D1D;
-    border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 10px;
-    margin-right: 20px;
-}
+       /* display: table;
+     clear: both; */
+     float: left;
+     padding: 0 10px;
+     width: 20%;
+     position: relative;
+     background-color: #1D1D1D;
+     border: 1px solid rgba(0, 0, 0, 0.35);
+     border-radius: 10px;
+     margin-right: 20px;
+    }
 .product3{
-    /* display: table;
-    clear: both; */
-    float: left;
-    padding: 0 10px;
-    /* width: 15%; */
-    position: relative;
-    background-color: #1D1D1D;
-    border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 10px;
-    margin-right: 20px;
-}
+       /* display: table;
+     clear: both; */
+     float: left;
+     padding: 0 10px;
+     width: 20%;
+     position: relative;
+     background-color: #1D1D1D;
+     border: 1px solid rgba(0, 0, 0, 0.35);
+     border-radius: 10px;
+     margin-right: 20px;
+    }
 .product4{
-    /* display: table;
-    clear: both; */
-    float: left;
-    padding: 0 10px;
-    /* width: 15%; */
-    position: relative;
-    background-color: #1D1D1D;
-    border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 10px;
-    margin-right: 20px;
-}
+       /* display: table;
+     clear: both; */
+     float: left;
+     padding: 0 10px;
+     width: 20%;
+     position: relative;
+     background-color: #1D1D1D;
+     border: 1px solid rgba(0, 0, 0, 0.35);
+     border-radius: 10px;
+     margin-right: 20px;
+    }
