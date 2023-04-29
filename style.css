@@ -201,7 +201,7 @@ line-height: 3;
 #content1{
 clear: both;
 display: table;
-width: 70%;
+width: 50%;
 margin: auto;
 }
 #content1 h3{
@@ -239,7 +239,7 @@ margin: auto;
     display: table;
     padding-top: 20px;
     margin: auto;
-    width: 80%;
+    /* width: 80%; */
 }
 /* .product1{ */
    /* display: table;
@@ -328,7 +328,7 @@ margin: auto;
     text-decoration: none;
 }
 .new-price {
-    width: 90%;
+    width:100%;
     margin: auto; 
   display: table;
     color: #ABB0B7!important;
@@ -355,7 +355,7 @@ margin: auto;
     color: #FFFFFF; 
 }
 .old-price {
-    width: 90%; 
+    width: 100%; 
     display: table;
     margin: auto;
     color: #d2d3d4!important;
@@ -427,7 +427,7 @@ margin: auto;
      margin-right: 20px;
     }
 .product2{
-       /* display: table;
+    /* display: table;
      clear: both; */
      float: left;
      padding: 0 10px;
